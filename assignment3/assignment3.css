@@ -1,0 +1,39 @@
+a {
+    color: rgb(251, 36, 36);
+}
+
+a:visited {
+    color: rgb(4, 211, 4);
+}
+
+a:hover {
+    color: rgb(255, 221, 0);
+}
+
+.heading {
+    color: purple;
+    background-color: rgb(17, 212, 218);
+}
+
+.otherheading {
+    color: blue;
+    background-color: rgb(214, 141, 4);
+}
+
+.thirdheading {
+    color: rgb(75, 74, 74);
+    background-color: rgb(250, 109, 250);
+}
+
+.lastheading {
+    color: brown;
+    background-color: cadetblue;
+}
+
+#divdemo {
+    background-color: rgb(227, 225, 225);
+}
+
+#spanstyle {
+    background-color: rgb(251, 251, 99);
+}
