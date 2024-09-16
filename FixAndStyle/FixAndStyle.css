@@ -1,0 +1,54 @@
+#firstheader {
+color:white;
+}
+
+#secondheader {
+color:blue;
+}
+
+#thirdheader {
+background-color:yellow;
+}
+
+#fourthheader {
+color:yellow;
+background-color:rgb(2, 69, 2);
+}
+
+#fifthheader {
+color:red;
+}
+
+#spanstyle {
+    color:orange;
+}
+
+.green {
+    background-color:rgb(113, 218, 113);
+}
+
+#spanstyle2 {
+    color:blue;
+}
+
+a {
+color:green;
+text-decoration:none;
+}
+
+a:hover {
+color:red;
+text-decoration:underline;
+}
+
+.red {
+    color:red;
+}
+
+.divcolor {
+    background-color:rgb(143, 158, 242);
+}
+
+.divcolor2 {
+    background-color:yellow;
+}
