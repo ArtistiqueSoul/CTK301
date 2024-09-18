@@ -1,0 +1,83 @@
+a {
+    color: rgb(251, 36, 36);
+}
+
+a:visited {
+    color: rgb(4, 211, 4);
+}
+
+a:hover {
+    color: rgb(255, 221, 0);
+}
+
+.heading {
+    background-color: rgb(5, 201, 208);
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+    text-align:center;
+}
+
+.otherheading {
+    background-color: rgb(117, 3, 165);
+    text-align:center;
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+.thirdheading {
+    background-color: rgb(205, 4, 205);
+    text-align:center;
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+.lastheading {
+    background-color: rgb(81, 84, 249);
+    text-align:center;
+    color:orange;
+    font-style:italic;
+    font-weight:normal;
+}
+
+#divdemo {
+    background-color: rgb(227, 225, 225);
+}
+
+#spanstyle {
+    background-color: rgb(251, 251, 99);
+}
+
+.fontstyle {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.boxmodel {
+    border: 14px solid #000000;
+    background-color: yellow;
+    padding: 5px 5px;
+    margin: 20px 0px;
+}
+
+.center {
+    text-align:center;
+}
+
+.justify {
+    text-align:justify;
+}
+
+.bgimage {
+    background-color:beige;
+    background-image: url(IMG_0898.JPG);
+    background-repeat:no-repeat;
+    background-position: left;
+    margin: 0px;
+    height: fit-content;
+}
+
+#white {
+    color:rgba(0, 0, 0, 0.672);
+}
