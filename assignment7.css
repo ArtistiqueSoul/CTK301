@@ -1,0 +1,153 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: white;
+    border: 3px solid rgb(63, 63, 222);
+    margin: 1em auto;
+    width: 960px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+}
+
+header {
+    background-image: linear-gradient(rgb(54, 135, 248), rgb(17, 94, 202));
+    grid-column: span 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(92, 192, 232);
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(154, 4, 4);
+}
+
+#headerlink {
+    color: rgb(92, 192, 232);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav {
+    margin: 0;
+    grid-column: span 3;
+    height: 50px;
+  }
+  
+ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-image: linear-gradient(rgb(54, 135, 248), rgb(17, 94, 202)); 
+    font-weight: normal;
+}
+  
+  li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+  }
+  
+  li a {
+    color: rgb(92, 192, 232);
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 3px solid rgb(63, 63, 222);
+  }
+
+  li a:hover {
+    color: white;
+  }
+
+  header a {
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(92, 192, 232);
+  }
+
+  header a:hover {
+    color: white;
+  }
+
+
+aside {
+    background-color: rgb(92, 192, 232);
+    font-weight: bold;
+    padding: 10px;
+    grid-column: span 1;
+}
+
+main {
+    background-color: white;
+    grid-column: span 2;
+    padding: 10px;
+    }
+
+#clmn1 {
+    grid-column: span 1;
+    margin: 10px;
+}
+
+#clmn2 {
+    grid-column: span 1;
+    margin: 10px;
+}
+
+#clmn3 {
+    grid-column: span 1;
+    margin: 10px;
+}
+
+#carmy {
+    width: 240px;
+}
+
+#sydney {
+    width: 240px;
+}
+
+#richie {
+    width: 240px;
+}
+
+h2 {
+    color: rgb(17, 94, 202);
+    border-bottom: 3px solid rgb(63, 63, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#img1 {
+    border: 3px solid rgb(63, 63, 222);
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    border: 3px solid rgb(63, 63, 222);
+    float: right;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: red;
+    grid-column: span 3;
+    border-top: 3px solid rgb(63, 63, 222);
+    padding: 10px;
+}
+
+#footerimg {
+    float: left;
+}
