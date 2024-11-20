@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#wrapper {
+    background-color: white;
+    width: 960px;
+    grid-template-columns: 6;
+}
+
+header {
+    background-image: linear-gradient(#FD4335, rgb(232, 4, 4));
+}
+
+h1 {
+    text-align: center;
+    grid-column: span 6;
+    padding-top: 20px;
+  }
+
+.navbar {
+    list-style-type: none;
+    background-color:rgb(250, 35, 35);
+    padding: 0;
+    text-align: center;
+    grid-column: span 6;
+    height: 45px;
+    border-top: 2px solid rgb(212, 3, 3);
+  }
+  
+.navbar ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+ .navbar ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0;
+    list-style-type: none;
+    width: 275px;
+  }
+  
+ .navbar ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border: 3px solid rgb(232,4,4);
+  }
+
+  .navbar ul li a:hover {
+    color: white;
+  }
+
+  main {
+    grid-template-columns: repeat (5, 1fr);
+    margin: 0 0 20px 0;
+  }
+
+  h2 {
+    text-align: center;
+    grid-column: span 5;
+  text-decoration: none;
+  }
+
+  h2:hover {
+    text-decoration: underline;
+  }
+
+.songlist {
+    grid-column: span 5;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    grid-template-columns:repeat(5, 1fr);
+    display: grid;
+  }
+
+  .song {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(grey, #a9a9aa);
+    color: black;
+    text-decoration: none;
+    border-radius: 5%;
+  }
+
+  .song:hover {
+    background: rgb(76, 75, 75);
+  }
+
+  footer {
+    text-align: center;
+    margin: 0;
+    background-color: #FD4335;
+    grid-column: span 5;
+    height: 40px;
+    padding: 5px;
+  }
