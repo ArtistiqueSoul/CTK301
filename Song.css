@@ -1,0 +1,123 @@
+body {
+    background-color: #1B1B1B;
+    font-family: Assignment11Font;
+    src: url(/Users/amber/Downloads/Work_Sans/static/WorkSans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Assignment11Font;
+    src: url(Work_Sans/static/WorkSans-Regular.ttf);
+  }
+  
+
+#wrapper {
+    background-color: #E4E4DE;
+    width: 1100px;
+    grid-template-columns: 6;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(#727b4d, #595f39);
+  }
+  
+  h1 {
+    text-align: center;
+      grid-column: span 6;
+      padding-top: 20px;
+      color: #1B1B1B;
+      text-decoration: none;
+  }
+  
+  h1 a {
+    text-align: center;
+      grid-column: span 6;
+      padding-top: 20px;
+      color: #1B1B1B;
+      text-decoration: none;
+      transition: background-color 0.5s, width 1.0s, color 1.0s;
+
+  }
+  
+  h1 a:hover {
+  color: #E4E4DE;
+  }
+
+.navbar {
+    list-style-type: none;
+    background: linear-gradient(#414726, #C4C5BA);
+    padding: 0;
+    text-align: center;
+    grid-column: span 6;
+    height: 42px;
+    border-top: 2px solid #414726;
+
+  }
+  
+.navbar ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+ .navbar ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0;
+    list-style-type: none;
+    width: 275px;
+  }
+  
+ .navbar ul li a {
+    color: #1B1B1B;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-right: 3px solid #80866a;
+    border-left: 3px solid #80866a;
+    border-bottom: 3px solid #C4C5BA;
+    transition: background-color 0.5s, width 1.0s, color 1.0s;
+
+  }
+
+  .navbar ul li a:hover {
+    color: #E4E4DE;
+  }
+
+  .main {
+    grid-template-columns: repeat (4, 1fr);
+  }
+
+  main {
+    margin: 25px;
+    padding: 50px 25px 50px 0;
+    grid-column: span 3;
+  }
+
+  h2 {
+    text-align: center;
+    grid-column: span 4;
+  text-decoration: none;
+  }
+
+  audio {
+    float: left;
+    text-wrap: right;
+    padding: 50px 50px 200px 50px;
+  }
+
+  aside {
+    padding: 50px;
+    grid-column: span 1;
+  }
+
+  footer {
+    text-align: center;
+    margin: 0;
+    background-color: #595f39;
+    grid-column: span 4;
+    height: 40px;
+    padding: 5px;
+  }
